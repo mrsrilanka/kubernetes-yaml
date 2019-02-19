@@ -2,7 +2,7 @@
 YAML repo
 
 This yaml will create a statefulset and create 3 stateful volumes in the Datera storage backend.
-
+```
 naninga@k8s-Master-pf9:~/home/test$ kc get sts -o wide
 NAME        DESIRED   CURRENT   AGE       CONTAINERS            IMAGES
 mysql       3         3         6m        mysql                 mysql:5.6
@@ -30,5 +30,5 @@ mysql-0   1/1       Running   0          8m        172.174.1.24   k8s-vm1-pf9
 mysql-1   1/1       Running   0          8m        172.174.1.25   k8s-vm1-pf9
 mysql-2   1/1       Running   0          8m        172.174.1.26   k8s-vm1-pf9
 naninga@k8s-Master-pf9:~/home/test$ 
-
+```
 
