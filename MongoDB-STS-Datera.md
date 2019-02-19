@@ -2,6 +2,7 @@
 
 This YAML will create a mongodb instance with 3 replicas and attach storage in the datera backend assuming the dynamic-provisioner, agent-provisioner are running and also secrets and storageClass defined. 
 
+```
 naninga@k8s-Master-pf9:~/home/test$ kc get pods -o wide 
 
 NAME                                        READY     STATUS    RESTARTS   AGE       IP             NODE 
@@ -59,3 +60,4 @@ mongo        ClusterIP   None         <none>        27017/TCP   38m
 nginx        ClusterIP   None         <none>        80/TCP      1h 
 
 naninga@k8s-Master-pf9:~/home/test$  
+```
