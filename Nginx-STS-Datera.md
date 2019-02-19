@@ -3,6 +3,7 @@ YAML repo
 The yaml will create a headless service and then create a statefulset wth three replicas with a Datera volumes attached in the backend.
 Assuming StorageClass Secrets are created in the default namespace and dynamic-provisioner and agent provisioner is running. 
 
+```
 naninga@k8s-Master-pf9:~/home/test$ kc get pods -o wide  
 
 NAME                                        READY     STATUS              RESTARTS   AGE       IP             NODE 
@@ -62,3 +63,4 @@ mongo        ClusterIP   None         <none>        27017/TCP   1h        role=m
 nginx        ClusterIP   None         <none>        80/TCP      3m        app=nginx 
 
 naninga@k8s-Master-pf9:~/home/test$  
+```
