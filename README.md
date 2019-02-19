@@ -1,5 +1,5 @@
-kubernetes-yaml
-YAML repo
+=====================================kubernetes-yaml================================================
+
 This YAML will create a mongodb instance with 3 replicas and attach storage in the datera backend assuming the dynamic-provisioner, agent-provisioner are running and also secrets and storageClass defined. 
 
 naninga@k8s-Master-pf9:~/home/test$ kc get pods -o wide 
